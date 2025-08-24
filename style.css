@@ -1,0 +1,64 @@
+/* :root {
+    --
+} */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body,
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    height: 100vh;
+    background-image: url(img/concert2.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    gap: 30px;
+    /* background-color: antiquewhite; */
+}
+
+.key {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 75px;
+    padding: 10px;
+    text-transform: capitalize;
+    background-color: #000000d7;
+    box-shadow: 0 0 10px #ffffff94;
+    border-radius: 10px;
+    /* transition: transform 0.07s; */
+    cursor: cell;
+}
+
+.key.active {
+    box-shadow: 0 0 10px #ffef10,
+    0 0 10px #ffe712,
+    0 0 10px #ff5512,
+    0 0 10px #ff5512,
+    0 0 10px #ec0202,
+    0 0 10px #ec0202;
+    transform: scale(1.08);
+}
+
+.key kbd {
+    font-size: 2rem;
+    color: white;
+}
+
+.key span {
+    color: #ffef10
+}
+
