@@ -39,17 +39,17 @@ body {
     background-color: #000000d7;
     box-shadow: 0 0 10px #ffffff94;
     border-radius: 10px;
-    /* transition: transform 0.07s; */
+    transition: transform 0.07s;
     cursor: cell;
 }
 
 .key.active {
-    box-shadow: 0 0 10px #ffef10,
-    0 0 10px #ffe712,
-    0 0 10px #ff5512,
-    0 0 10px #ff5512,
-    0 0 10px #ec0202,
-    0 0 10px #ec0202;
+    box-shadow: 0 0 8px #ffef10,
+    0 0 8px #ffe712,
+    0 0 8px #ff5512,
+    0 0 8px #ff5512,
+    0 0 8px #ec0202,
+    0 0 8px #ec0202;
     transform: scale(1.08);
 }
 
